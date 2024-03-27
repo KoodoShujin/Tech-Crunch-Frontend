@@ -1,0 +1,265 @@
+Techcrunch tasks
+
+1. Create variables for all the colors
+
+2. Create mixins for the all the typography
+
+3. convert all the icons to jsx components
+
+4. create icon atom
+
+5. create the button atom
+
+6. create input atom
+
+7. create icon input molecule
+
+8. create input field molecule
+
+9. create select options molecule
+
+10. create tabs molecule
+
+11. create textarea atom
+
+12. create (shared) sidebar organism
+
+13. create (shared) footer organism
+
+14. create post summary molecule
+
+15. create post info molecule
+
+16. create post info long molecule
+
+17. create post molecule
+
+18. create featured post molecule
+
+19. create post list item molecule
+
+20. create beautiful scrollbar class
+
+21. create pagination molecule
+
+22. implement react toastify
+
+23. create switch atom
+
+24. create options atom
+
+25. create select popup atom
+
+26. create create - comment molecule
+
+27. create comment - message molecule
+
+28. create update comment - message state
+
+29. create reply comment - message state
+
+30. create notification list item molecule
+
+31. create modal molecule
+
+32. create users card molecule
+
+33. create section heading molecule
+
+34. create pages layout template
+
+35. create (home) hero post variant of post molecule
+
+36. create (home) summary list section organism
+
+37. create (shared) home page hero section organism
+
+38. create (shared) ad section organism
+
+39. create (shared) newsletter organism
+
+40. create (shared) The - latest section organism
+
+41. assemble the home page
+
+42. build (keyword) keyword page hero section organism
+
+43. assemble the keyword page
+
+44. build (post details) post details section organism
+
+45. build (post details) conversation section organism
+
+46. assemble post details page
+
+47. build post details author variant
+
+48. build post details author variant delete flow
+
+49. build post details author variant edit flow
+
+50. build add image input molecule
+
+51. build (create post) page head and description texts
+
+52. build (create post) create post form organism
+
+53. assemble create post page
+
+54. create auth layout template
+
+55. create (auth) auth section organism
+
+56. create (auth/signup) signup form organism
+
+57. assemble signup page
+
+58. create (auth/verify-email) verify email form organism
+
+59. assemble verify-email page
+
+60. create (auth/login) login form organism
+
+61. assemble login page
+
+62. create error 404 header
+
+63. assemble error 404 page
+
+64. create (profile) profile details section organism header
+
+65. create (profile) profile details section organism body
+
+66. create (profile) profile details section organism footer
+
+67. assemble (profile) profile details section organism
+
+68. create container molecule
+
+69. create (container) POST molecule variant
+
+70. create (profile) tab list section organism (i.e assemble tab and container.POST)
+
+71. create (container) HEADER SECTION molecule variant
+
+72. create (profile) header section organism (i.e assemble the section heading molecule and container.HEADER_SECTION)
+
+73. create (profile) auth form template
+
+74. create (profile/edit) edit-form section orginism (nb: implement (profile) auth form template)
+
+75. create (profile/edit) verify-form section orginism (nb: implement (profile) auth form template)
+
+76. build profile edit flow (i.e implement states (success and error))
+
+77. build profile change profile pic flow
+
+78. create (profile/change-password) edit-form section orginism (nb: implement (profile) auth form template)
+
+79. create (profile/edit) verify-form section orginism (nb: implement (profile) auth form template)
+
+80. build change password flow (i.e implement states (success and error))
+
+81. create (profile/socials) add-edit-form section orginism (nb: implement (profile) auth form template)
+
+82. build add / edit socials flow (i.e implement states (success and error))
+
+83. build logout flow
+
+84. create (profile/posts) no posts section organism
+
+85. create (profile/posts) default section organism
+
+86. build (profile/posts) filter flow for post section organism
+
+87. create (profile/posts) search_empty section organism
+
+88. create (profile/posts) search_loading section organism
+
+89. create (profile/posts) search_no post found section organism
+
+90. build (profile/posts) search posts flow for post section organism
+
+91. build (profile/posts) select / select all posts flow for post section organism
+
+92. build (profile/posts) delete posts flow for post section organism
+
+93. build (profile/posts) clear posts flow for post section organism
+
+94. assemble (profile/posts) my posts header section
+
+95. create (profile/bookmarks) default section organism
+
+96. build (profile/bookmarks) filter flow for bookmark section organism
+
+97. create (profile/bookmarks) search_empty section organism
+
+98. create (profile/bookmarks) search_loading section organism
+
+99. create (profile/bookmarks) search_no bookmark found section organism
+
+100. build (profile/bookmarks) search bookmarks flow for bookmark section organism
+
+101. build (profile/bookmarks) select / select all bookmarks flow for bookmark section organism
+
+102. build (profile/bookmarks) delete bookmarks flow for bookmark section organism
+
+103. build (profile/bookmarks) clear bookmarks flow for bookmark section organism
+
+104. assemble (profile/bookmarks) bookmarks header section
+
+105. create (profile/following) default section organism
+
+106. build (profile/following) filter flow for following section organism
+
+107. create (profile/following) search_empty section organism
+
+108. create (profile/following) search_loading section organism
+
+109. create (profile/following) search_no following found section organism
+
+110. build (profile/following) search followings flow for following section organism
+
+111. assemble (profile/following) followings header section
+
+112. create (profile/followers) default section organism
+
+113. build (profile/followers) filter flow for follower section organism
+
+114. create (profile/followers) search_empty section organism
+
+115. create (profile/followers) search_loading section organism
+
+116. create (profile/followers) search_no follower found section organism
+
+117. build (profile/followers) search followers flow for follower section organism
+
+118. build (profile/followers) select / select all followers flow for follower section organism
+
+119. build (profile/followers) delete followers flow for follower section organism
+
+120. build (profile/followers) clear followers flow for follower section organism
+
+121. assemble (profile/followers) follower header section
+
+122. create (profile/notifications) default section organism
+
+123. create (profile/notifications) search_empty section organism
+
+124. create (profile/notifications) search_loading section organism
+
+125. create (profile/notifications) search_no follower found section organism
+
+126. build (profile/notifications) search notifications flow for follower section organism
+
+127. build (profile/notifications) select / select all notifications flow for follower section organism
+
+128. build (profile/notifications) delete notifications flow for follower section organism
+
+129. build (profile/notifications) clear notifications flow for follower section organism
+
+130. assemble (profile/notifications) notifications header section
+
+131. implement all apis
+
+132. test flows
