@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@mixin typography($size, $height, $weight: normal) {
+  font-family: "Outfit", sans-serif;
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+}
+
+@mixin pLg {
+  @include typography(19.2px, 30px);
+}
+
+@mixin pMd {
+  @include typography(15.4px, 28px);
+}
+
+@mixin pSm {
+  @include typography(12.3px, 21.5px);
+}
+
+@mixin h1 {
+  @include typography(73.24, auto, bold);
+}
+
+@mixin h2 {
+  @include typography(58.6, auto, bold);
+}
+
+@mixin h3 {
+  @include typography(46.9, auto, bold);
+}
+
+@mixin h4 {
+  @include typography(37.5, auto, bold);
+}
+
+@mixin h5 {
+  @include typography(30, auto, bold);
+}
+
+@mixin h6 {
+  @include typography(24, auto, bold);
+}
