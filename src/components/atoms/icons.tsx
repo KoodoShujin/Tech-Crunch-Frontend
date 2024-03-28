@@ -2,11 +2,11 @@ import { IconMap, Icons } from "@/@types/components/atoms/icons.type";
 import { IIcon } from "@/@types/shared/icons.types";
 import Image from "next/image";
 
-interface IIconProp {
+export interface IIconProps {
   icon: Icons;
 }
 
-const Icon = ({ icon, ...props }: IIconProp & IIcon) => {
+const Icon = ({ icon, ...props }: IIconProps & IIcon) => {
   const IconJsx = IconMap[icon];
 
   return <IconJsx {...props} />;

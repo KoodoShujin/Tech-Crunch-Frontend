@@ -10,7 +10,7 @@ const Spinner = ({
   className,
 }: IIcon) => {
   width = width ?? "24";
-  height = height ?? "24";
+  height = height ?? "26";
   return (
     <svg
       width={width}

@@ -1,0 +1,25 @@
+.button {
+  @include pMd();
+
+  background: $primary;
+  padding: 8px 24px;
+  border-radius: 8px;
+  color: $black5;
+  cursor: pointer;
+
+  // VARIANTS
+
+  &__fit {
+    padding: 6px 12px;
+  }
+
+  &__fill {
+    width: 100%;
+  }
+
+  // STATES
+  &--inactive {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}
