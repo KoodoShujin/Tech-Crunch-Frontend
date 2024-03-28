@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/globals.scss";
-import { StoreProvider } from "@/components/shared/store-provider.shared";
+import { StoreProvider } from "@/components/organisms/shared/store-provider.shared";
 
 export const metadata: Metadata = {
   title: "Tech Crunch",
